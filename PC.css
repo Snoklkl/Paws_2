@@ -1,6 +1,8 @@
 body {
     margin: 10px;
-    background-color: #EDC7B7;
+    background-color: #DFD7C3
+    
+    ;
     
 }
 
@@ -11,6 +13,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     border-style: groove;
     font-weight: 900;
+    border-width: 7px;
 }
 
 .navbar a {
@@ -38,6 +41,7 @@ body {
     color: black;
     max-height: 50%;
     border-style: solid;
+    border-width: 7px;
   }
 
   .centered {
@@ -46,26 +50,30 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 500%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #123C69;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: #000 5px 5px 5px;
     font-style: bold;
-    font-weight: 400;
+    font-weight: 800;
    
   }
 
   img {
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-    filter: blur(5px);
+    -webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
+    filter: blur(10px);
   }
 
  /*Styling for form on the "Contact Us" page */
   form {
-      background-color: #EDC7B7;
+      background-color: #283137;
       width: 1000px;
       font-family:  Georgia, 'Times New Roman', Times, serif;
       text-align: center;
-      justify-content: center;
-      
+      width: 80%;
+      margin: 0 auto;
+      border-style: double;
+      border-width: 7px;
+      border-color: #666D58;
   }
 
   label {
@@ -74,16 +82,25 @@ body {
     margin: 8px 0;
     box-sizing: border-box;
     align-content: center;
+    text-align:left;
+    width:150px;
+    display:block;
+    float:left;
+    clear:right;
+    font-size: 28px;
+    color:white;
+    font-style: bold;
+
  
   }
 
   input[type=text]:focus {
-    border: 3px solid #555;
+    border: 7px solid #666D58;
   }
 
   
   input[type=email]:focus {
-    border: 3px solid #555;
+    border: 7px solid #666D58;
   }
 
   input {
@@ -91,4 +108,5 @@ body {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    font-size: 25px;
 }
