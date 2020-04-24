@@ -1,5 +1,5 @@
 
-
+/*Navbar styling*/
 .navbar {
     overflow: hidden;
     background-color: #ffffff
@@ -19,6 +19,35 @@
 }
 
 .navbar a:hover {
-    background-color: #ddd; /* Grey background color */
-    color: black; /* Black text color */
+    background-color: #ddd; 
+    color: black; 
   }
+
+/*Styling for the image containers that will be below nav */
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-height: 50%;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #112D32;
+    font-style: bold;
+  }
+
+  img {
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+  }
+
+  .form {
+      text-align: center;
+  }
+  
