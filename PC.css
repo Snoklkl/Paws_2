@@ -49,6 +49,8 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #123C69;
     font-style: bold;
+    font-weight: 400;
+   
   }
 
   img {
@@ -58,6 +60,35 @@ body {
 
  
   form {
-      background-color: white;
-      width: 10000px;
+      background-color: #EDC7B7;
+      width: 1000px;
+      font-family:  Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      justify-content: center;
+      
   }
+
+  label {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    align-content: center;
+ 
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  
+  input[type=email]:focus {
+    border: 3px solid #555;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
