@@ -1,6 +1,7 @@
 body {
-    margin: 0px;
-    background-color: #88BDBC;
+    margin: 1px;
+    background-color: #EDC7B7;
+    
 }
 
 /*Navbar styling*/
@@ -8,6 +9,8 @@ body {
     overflow: hidden;
     background-color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style: groove;
+    font-weight: 900;
 }
 
 .navbar a {
@@ -44,7 +47,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 500%;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #112D32;
+    color: #123C69;
     font-style: bold;
   }
 
@@ -53,7 +56,8 @@ body {
     filter: blur(5px);
   }
 
-  .input {
-      width: 50px;
+ 
+  form {
+      background-color: white;
+      width: 10000px;
   }
-  
