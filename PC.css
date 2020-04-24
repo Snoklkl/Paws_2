@@ -58,7 +58,7 @@ body {
     filter: blur(5px);
   }
 
- 
+ /*Styling for form on the "Contact Us" page */
   form {
       background-color: #EDC7B7;
       width: 1000px;
