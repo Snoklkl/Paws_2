@@ -61,8 +61,8 @@ body {
   }
 
   img {
-    -webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
-    filter: blur(10px);
+    -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+    filter: blur(3px);
   }
 
  /*Styling for form on the "Contact Us" page */
