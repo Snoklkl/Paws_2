@@ -1,8 +1,13 @@
+body {
+    margin: 0px;
+    background-color: #88BDBC;
+}
 
 /*Navbar styling*/
 .navbar {
     overflow: hidden;
-    background-color: #ffffff
+    background-color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar a {
@@ -27,8 +32,9 @@
   .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
     max-height: 50%;
+    border-style: solid;
   }
 
   .centered {
@@ -47,7 +53,7 @@
     filter: blur(5px);
   }
 
-  .form {
-      text-align: center;
+  .input {
+      width: 50px;
   }
   
