@@ -191,6 +191,9 @@ p {
   margin: 4px 0;
   top: 25%; 
   left: 20%; 
+}
 
-
+.Welcome {
+  background-color: #283137;
+  color: black !important;
 }
