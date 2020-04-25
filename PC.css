@@ -38,12 +38,14 @@ body {
 
 /*Styling for the image containers that will be below nav */
   .container {
-    position: relative;
+    position: static;
     text-align: center;
     color: black;
     border-style: solid;
+    border-radius: 5px;
     border-width: 7px;
     margin-top: 3px;
+    height: 700px;
   }
 
   .centered {
@@ -156,7 +158,7 @@ body {
 main {
   background-color: #666D58;
   font-size: 30px;
-  width: 1873px;
+  width: 1633px;
   height: 400px;
   border-style: solid;
   margin: 4px 0;
@@ -188,7 +190,7 @@ p {
   float:left;
   margin: 4px 0;
   top: 25%; 
-  left: 25%; 
+  left: 20%; 
 
 
 }
