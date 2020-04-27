@@ -211,8 +211,8 @@ p {
   border: solid;
   height: 300px;
   /* set min-width, allow images to set cell width */
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 400px;
+  max-width: 400px;
   margin: 10px;
   /* vertically center */
   top: 50%;
