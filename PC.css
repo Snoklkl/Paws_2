@@ -204,24 +204,26 @@ p {
   background: #EEE;
 }
 
-.carousel-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #C29369;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
+.carousel-image {
+  -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
+  filter: blur(0px);
+  display: block;
+  border: solid;
+  height: 300px;
+  /* set min-width, allow images to set cell width */
+  min-width: 300px;
+  max-width: 300px;
+  margin: 10px;
+  /* vertically center */
+  top: 50%;
+  transform: translateY(-50%)
 }
 
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content:counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
+.carousel.is-fullscreen .carousel-image {
+  height: auto;
+  max-height: 100%;
 }
+
 
 
 
