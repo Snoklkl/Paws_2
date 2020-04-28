@@ -231,6 +231,13 @@ p {
   max-height: 100%;
 }
 
-
+/* Styling for contact colunms */
+.column {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  color: Black;
+  font-size: 30px;
+}
 
 
