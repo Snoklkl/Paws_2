@@ -197,7 +197,8 @@ p {
 
 .Welcome {
   background-color: #283137;
-  color: black !important;
+  color: black;
+  width: 99.3%;
 }
 
 /*CSS for Carousels*/
