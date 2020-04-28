@@ -55,7 +55,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 500%;
     font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: #D6BC55;
     text-shadow: #000 1px 5px 3px;
     font-style: bold;
     font-weight: 800;
@@ -70,12 +70,13 @@ body {
 
  /*Styling for form on the "Contact Us" page */
   form {
+      padding: 15px;
       background-color: #283137;
       width: 1000px;
       font-family:  Georgia, 'Times New Roman', Times, serif;
       text-align: center;
       width: 80%;
-      margin: 0 auto;
+      margin: 20px auto;
       border-style: double;
       border-width: 7px;
       border-color: #666D58;
