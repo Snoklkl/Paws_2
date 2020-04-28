@@ -124,7 +124,7 @@ body {
     filter: blur(0px);
     display:block;
     float:right;
-    margin: 4px 0;
+    margin: 20px 0;
     position: relative;
     border-style: solid;
     border-width: 5px;
@@ -141,10 +141,10 @@ body {
     border-style: solid;
     border-width: 5px;
     margin-top: 0px;
+    margin-right: 6px;
   }
   
   .Ours3 {
-    -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
     filter: blur(0px);
     display:block;
     float:right;
@@ -163,15 +163,15 @@ main {
   width: 95%;
   height: 400px;
   border-style: solid;
-  margin: 4px 0;
+  margin: 20px 0;
   border-width: 5px;
 }
 
 h4 {
   margin: 0px;
+  margin-left: 10px;
   text-decoration: underline;
   color: #DFD7C3;
-  margin-left: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 36px
 }
@@ -239,6 +239,7 @@ p {
   column-rule-style: solid;
   color: Black;
   font-size: 30px;
+  margin:30px;
 }
 
 
