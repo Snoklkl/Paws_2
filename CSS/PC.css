@@ -223,6 +223,7 @@ p {
   /* vertically center */
   top: 50%;
   transform: translateY(-50%);
+  
 }
 
 .carousel.is-fullscreen .carousel-image {
