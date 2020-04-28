@@ -53,13 +53,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 500%;
+    font-size: 700%;
     font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #D6BC55;
+    color: #9BD38F;
     text-shadow: #000 1px 5px 3px;
     font-style: bold;
-    font-weight: 800;
-   
+    font-weight: 1000;
   }
 
 
@@ -85,7 +84,8 @@ body {
   label {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    padding-left: 2px;
+    margin: 0px;
     box-sizing: border-box;
     align-content: center;
     text-align:left;
