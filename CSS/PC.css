@@ -4,8 +4,6 @@ body {
     margin: 10px;
     background-color: #DFD7C3
     
-    ;
-    
 }
 
 /*Navbar styling*/
@@ -44,8 +42,9 @@ body {
     border-style: solid;
     border-radius: 5px;
     border-width: 7px;
-    margin-top: 3px;
-    height: 700px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2D211D;
   }
 
   .centered {
@@ -64,7 +63,7 @@ body {
 
    /*Used to contain blurring*/
   img {
-
+    
   }
 
  /*Styling for form on the "Contact Us" page */
@@ -205,6 +204,7 @@ p {
 
 .carousel {
   background: #666D58;
+  max-height: 400px;
 }
 
 .carousel-image {
